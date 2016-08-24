@@ -20,4 +20,9 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
+$positive:                        #2ef !default;
+.header {
+     -webkit-flex: 1.5 !important;
+     -webkit-align-items: center;
 
+}
