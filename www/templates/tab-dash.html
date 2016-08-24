@@ -1,0 +1,10 @@
+<ion-view view-title="Main">
+  <ion-content class="padding">
+    <div class="list">
+      <a class="item" ng-repeat="bk in books" ng-click="goToChapter(bk)" href="#/tab/chapters">
+            {{bk.book}}
+      </a>
+    </div>
+
+  </ion-content>
+</ion-view>

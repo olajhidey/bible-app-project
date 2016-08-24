@@ -1,0 +1,9 @@
+<ion-view view-title="Chapters">
+  <ion-content class="padding">
+    <div class="list">
+      <a class="item" ng-repeat="chapter in chapters track by $index" ng-click="goVerse(chapter, {{$index + 1}})" href="#/tab/verse">
+        {{$index+1}}
+      </a>
+    </div>
+  </ion-content>
+</ion-view>
