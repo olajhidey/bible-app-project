@@ -2,9 +2,9 @@
 $conn = mysqli_connect("localhost", "root", "", "bible") or die("Error " . mysqli_error($conn));
 ini_set('display_errors', 'on');
 
-//$query = "select k.b book_id, n book, max(t.c) chapters 
-//from t_kjv t 
-//join key_english k on t.b = k.b 
+//$query = "select k.b book_id, n book, max(t.c) chapters
+//from t_kjv t
+//join key_english k on t.b = k.b
 //group by t.b";
 //
 //$run_query = mysqli_query($conn, $query);
